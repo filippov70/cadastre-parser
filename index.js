@@ -30,6 +30,6 @@ app.on('ready', function() {
         // when you should delete the corresponding element.
         mainWindow = null;
     });
-    
-    
+    var inputFile = $('#input-file').val();
+    console.log(inputFile);
 });
