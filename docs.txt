@@ -1,0 +1,2 @@
+http://canonium.com/articles/electron-desktop-app-introduction
+https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>cadastre-parser</title>
+        <link href="app/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="app/libs/jquery-2.2.1.min.js" type="text/javascript"></script>
+        <script src="app/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="app/libs/cadXML2GeoJSON/app.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Cadastre Parser</h3>
+            </div>
+            <div class="panel-body">
+                <div class="input-group">
+                    <input class="input-lg" type="file">
+                    <button id="convert" class="btn btn-primary">Сохранить GeoJSON</button>
+                    <button id="save-geo" class=" hidden">Сохранить GeoJSON</button>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                node <script>document.write(process.versions.node)</script>,
+                Chrome <script>document.write(process.versions.chrome)</script>,
+                and Electron <script>document.write(process.versions.electron)</script>.
+            </div>
+            <div class="panel-footer panel-info">используемые технологии</div>
+        </div>
+
+    </body>
+</html>
