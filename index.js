@@ -21,7 +21,8 @@ app.on('ready', function() {
     mainWindow = new BrowserWindow({width: 600, height: 350});
 
     // and load the index.html of the app.
-    mainWindow.loadURL('file://' + __dirname + '/index.html');
+    mainWindow.loadURL('file://' + __dirname + '/app/index.html');
+    mainWindow.show
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function() {
@@ -30,6 +31,5 @@ app.on('ready', function() {
         // when you should delete the corresponding element.
         mainWindow = null;
     });
-    var inputFile = $('#input-file').val();
-    console.log(inputFile);
+
 });
