@@ -1,3 +1,7 @@
 http://canonium.com/articles/electron-desktop-app-introduction
 https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md
 https://habrahabr.ru/post/278951/
+https://habrahabr.ru/post/224825/ - про модули на клиенте
+
+Но в «браузерной» части Электрона не работают пути, которые начинаются со слэша или «./». 
+По умолчанию он ищет в папке node_modules в корне приложения
